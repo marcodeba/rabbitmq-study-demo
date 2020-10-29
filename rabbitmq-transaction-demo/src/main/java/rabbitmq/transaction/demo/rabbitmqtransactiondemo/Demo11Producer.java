@@ -12,6 +12,7 @@ import rabbitmq.transaction.demo.rabbitmqtransactiondemo.message.Demo11Message;
 public class Demo11Producer {
     private Logger logger = LoggerFactory.getLogger(getClass());
 
+    // 在 RabbitAutoConfiguration 中自动注入
     @Autowired
     private RabbitTemplate rabbitTemplate;
 

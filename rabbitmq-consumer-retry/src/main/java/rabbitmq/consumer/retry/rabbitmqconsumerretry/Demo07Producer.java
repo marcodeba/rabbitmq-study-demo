@@ -10,6 +10,7 @@ import rabbitmq.consumer.retry.rabbitmqconsumerretry.message.Demo07Message;
 
 @Component
 public class Demo07Producer {
+    // 在 RabbitAutoConfiguration 中自动注入
     @Autowired
     private RabbitTemplate rabbitTemplate;
 

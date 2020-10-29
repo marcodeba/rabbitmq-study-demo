@@ -7,6 +7,7 @@ import rabbitmq.exchange.demo.rabbitmqfanoutexchange.message.Demo03Message;
 
 @Component
 public class Demo03Producer {
+    // 在 RabbitAutoConfiguration 中自动注入
     @Autowired
     private RabbitTemplate rabbitTemplate;
 

@@ -10,6 +10,7 @@ import rabbitmq.concurrency.consumer.rabbitmqconcurrencyconsumer.message.Demo09M
 
 @Component
 public class Demo09Producer {
+    // 在 RabbitAutoConfiguration 中自动注入
     @Autowired
     private RabbitTemplate rabbitTemplate;
 

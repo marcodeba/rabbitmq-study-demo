@@ -7,6 +7,7 @@ import rabbitmq.errorhandler.demo.rabbitmqerrorhandler.message.Demo16Message;
 
 @Component
 public class Demo16Producer {
+    // 在 RabbitAutoConfiguration 中自动注入
     @Autowired
     private RabbitTemplate rabbitTemplate;
 

@@ -7,6 +7,7 @@ import rabbitmq.messageconverter.demo.rabbitmqmessageconverter.message.Demo15Mes
 
 @Component
 public class Demo15Producer {
+    // 在 RabbitAutoConfiguration 中自动注入
     @Autowired
     private RabbitTemplate rabbitTemplate;
 

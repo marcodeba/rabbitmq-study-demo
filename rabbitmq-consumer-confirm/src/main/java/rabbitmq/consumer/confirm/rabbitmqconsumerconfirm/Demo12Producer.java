@@ -10,7 +10,7 @@ import rabbitmq.consumer.confirm.rabbitmqconsumerconfirm.message.Demo12Message;
 
 @Component
 public class Demo12Producer {
-
+    // 在 RabbitAutoConfiguration 中自动注入
     @Autowired
     private RabbitTemplate rabbitTemplate;
 

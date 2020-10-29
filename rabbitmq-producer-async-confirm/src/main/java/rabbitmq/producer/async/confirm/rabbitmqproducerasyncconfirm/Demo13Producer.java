@@ -7,6 +7,7 @@ import rabbitmq.producer.async.confirm.rabbitmqproducerasyncconfirm.message.Demo
 
 @Component
 public class Demo13Producer {
+    // 在 RabbitAutoConfiguration 中自动注入
     @Autowired
     private RabbitTemplate rabbitTemplate;
 

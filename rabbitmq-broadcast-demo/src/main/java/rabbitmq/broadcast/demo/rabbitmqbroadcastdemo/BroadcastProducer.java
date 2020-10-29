@@ -7,6 +7,7 @@ import rabbitmq.broadcast.demo.rabbitmqbroadcastdemo.message.BroadcastMessage;
 
 @Component
 public class BroadcastProducer {
+    // 在 RabbitAutoConfiguration 中自动注入
     @Autowired
     private RabbitTemplate rabbitTemplate;
 

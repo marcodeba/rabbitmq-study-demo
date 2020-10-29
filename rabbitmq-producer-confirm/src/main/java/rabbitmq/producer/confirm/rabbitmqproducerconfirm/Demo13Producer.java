@@ -11,6 +11,7 @@ import rabbitmq.producer.confirm.rabbitmqproducerconfirm.message.Demo13Message;
 public class Demo13Producer {
     private Logger logger = LoggerFactory.getLogger(getClass());
 
+    // 在 RabbitAutoConfiguration 中自动注入
     @Autowired
     private RabbitTemplate rabbitTemplate;
 
